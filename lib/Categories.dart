@@ -11,11 +11,16 @@ class shirts extends StatelessWidget {
           appBar: AppBar(
             backgroundColor: Colors.purple,
             centerTitle: true,
-            leading: Icon(Icons.arrow_back, color: Colors.white),
             title: Text(
               'Shirts',
               style: TextStyle(
                   fontWeight: FontWeight.bold, fontFamily: 'f1', fontSize: 40),
+            ),
+            leading: IconButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              icon: Icon(Icons.arrow_back),
             ),
           ),
           body: GridView.builder(
@@ -82,7 +87,12 @@ class shoe extends StatelessWidget {
           appBar: AppBar(
             backgroundColor: Colors.purple,
             centerTitle: true,
-            leading: Icon(Icons.arrow_back, color: Colors.white),
+            leading: IconButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              icon: Icon(Icons.arrow_back),
+            ),
             title: Text(
               'Shoes',
               style: TextStyle(
@@ -153,7 +163,12 @@ class heels extends StatelessWidget {
           appBar: AppBar(
             backgroundColor: Colors.purple,
             centerTitle: true,
-            leading: Icon(Icons.arrow_back, color: Colors.white),
+            leading: IconButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              icon: Icon(Icons.arrow_back),
+            ),
             title: Text(
               'Heels',
               style: TextStyle(
@@ -224,7 +239,12 @@ class watch extends StatelessWidget {
           appBar: AppBar(
             backgroundColor: Colors.purple,
             centerTitle: true,
-            leading: Icon(Icons.arrow_back, color: Colors.white),
+            leading: IconButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              icon: Icon(Icons.arrow_back),
+            ),
             title: Text(
               'Acessories',
               style: TextStyle(
@@ -295,7 +315,12 @@ class pants extends StatelessWidget {
           appBar: AppBar(
             backgroundColor: Colors.purple,
             centerTitle: true,
-            leading: Icon(Icons.arrow_back, color: Colors.white),
+            leading: IconButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              icon: Icon(Icons.arrow_back),
+            ),
             title: Text(
               'Bottoms',
               style: TextStyle(
@@ -366,7 +391,12 @@ class jackets extends StatelessWidget {
           appBar: AppBar(
             backgroundColor: Colors.purple,
             centerTitle: true,
-            leading: Icon(Icons.arrow_back, color: Colors.white),
+            leading: IconButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              icon: Icon(Icons.arrow_back),
+            ),
             title: Text(
               'Tops',
               style: TextStyle(
@@ -437,7 +467,12 @@ class allCategories extends StatelessWidget {
           appBar: AppBar(
             backgroundColor: Colors.purple,
             centerTitle: true,
-            leading: Icon(Icons.arrow_back, color: Colors.white),
+            leading: IconButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              icon: Icon(Icons.arrow_back),
+            ),
             title: Text(
               'All Categories',
               style: TextStyle(

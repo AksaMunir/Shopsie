@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:task_3/Categories.dart';
+import 'package:task_3/landing_screen.dart';
 
 class MyCard extends StatelessWidget {
   String image;
@@ -441,9 +442,14 @@ class detailPage extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.white,
           centerTitle: true,
-          leading: Icon(
-            Icons.arrow_back,
-            color: const Color.fromARGB(255, 57, 57, 57),
+          leading: IconButton(
+            onPressed: () {
+              Navigator.pop(context);
+            },
+            icon: Icon(
+              Icons.arrow_back,
+              color: purpleColor,
+            ),
           ),
           title: Text(
             'Shopsie',
