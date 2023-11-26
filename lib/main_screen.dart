@@ -64,24 +64,19 @@ class mainScreen extends StatelessWidget {
           child: Column(
             children: [
               Container(
-                padding: EdgeInsets.all(20),
                 width: double.infinity,
-                height: 450,
+                height: 360,
                 color: greyColor,
-                child: Container(
-                  decoration: BoxDecoration(
-                    color: greyColor,
-                    image: DecorationImage(
-                        image: AssetImage('images/image(1).jpg'),
-                        fit: BoxFit.fill),
-                    borderRadius:
-                        BorderRadius.vertical(top: Radius.circular(300)),
-                  ),
+                child: Image.asset(
+                  'images/image(1).jpg',
+                  width: 300,
+                  height: 200,
+                  fit: BoxFit.fill,
                 ),
               ),
               Container(
                 width: double.infinity,
-                height: 100,
+                height: 150,
                 color: greyColor,
                 child: Center(
                   child: Container(
