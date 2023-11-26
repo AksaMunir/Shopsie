@@ -64,6 +64,7 @@ class mainScreen extends StatelessWidget {
           child: Column(
             children: [
               Container(
+                // padding: EdgeInsets.all(20),
                 width: double.infinity,
                 height: 360,
                 color: greyColor,
